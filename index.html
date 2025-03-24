@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHONI PORTFOLIO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo">CHONI</h1>
+        <!-- <nav>
+            <div class="toggle-box">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="toggle">
+                    <div class="bars" id="bar1"></div>
+                    <div class="bars" id="bar2"></div>
+                    <div class="bars" id="bar3"></div>
+                </label>
+            </div>
+            <ul>
+                <li></li>
+            </ul>
+        </nav> -->
+    </header>
+    <section class="main">
+        <div class="circle-wrap">
+            <div class="circle-box">
+                <div class="circle one"></div>
+                <div class="circle two"></div>
+            </div>
+        </div>
+        <div class="main-txt">
+            <h1 class="neon">CHONI</h1>
+            <h3 class="neon">Web Portfolio</h3>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="left">
+                <h1 class="main-tit neon">About</h1>
+                <p class="img">
+                    <img src="./images/about.jpg" alt="about 이미지"/>
+                    <span class="bg-img"></span>
+                </p>
+            </div>
+            <div class="right">
+                <p class="about-txt medium">
+                    안녕하세요, 항상 과정을 즐기며 성장하는 웹퍼블리셔 심초은입니다!<br/>
+
+                    CSS와 Javascript를 이용한 동적인 화면을 구현하는 것에 관심이 많으며, 
+                    새로운 기술과 트랜드를 익히기 위하여 꾸준히 공부하고있습니다.<br/>
+                    
+                    프로젝트를 진행하면서 발생하는 어려움들을 즐거운 도전으로 여기고, 
+                    문제를 해결하며 성장하는 자신감을 가지고 있습니다.<br/>
+                    
+                    코드를 작성하는 과정에서도 디테일에 주의를 기울이며, 
+                    최적화와 유지보수에 대한 책임감을 가지고 작업합니다. 
+                    또한 팀원들과의 원활한 커뮤니케이션과 협력을 중요시하여 팀 프로젝트의 성공을 위해 노력합니다.
+                    
+                </p>
+                <h3 class="tit">E X P E R I E N C E S</h3>
+                <ul class="list-wrap">
+                    <!-- <li>
+                        <strong>(주)두시스템 | 웹퍼블리셔 프리랜서 (2024.07 - 2024.08)</strong>
+                        <ul class="thin">
+                            <li>- 기업을 대상으로 홈페이지 제작 사업 활동을 하는 SW입니다.</li>
+                            <li>- 퍼블리서로써 파견 등 전반적인 사이트 제작 업무를 담당하였습니다.</li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <strong>(주)인더엑스 | 웹퍼블리셔 (2024.12 - )</strong>
+                        <ul class="thin">
+                            <li>- 기업을 대상으로 홈페이지 제작 사업 활동을 하는 에이전시입니다</li>
+                            <li>- 퍼블리서로써 퍼블리싱, 사이트 유지보수 등 전반적인 사이트 제작 업무를 담당하였습니다.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>(주)오픈오브젝트 | 웹퍼블리셔 (2023.09 - 2024.07)</strong>
+                        <ul class="thin">
+                            <li>- 기업을 대상으로 홈페이지 제작 사업 활동을 하는 SW입니다.</li>
+                            <li>- 퍼블리서로써 퍼블리싱, 사이트 유지보수, 파견 등 전반적인 사이트 제작 업무를 담당하였습니다.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>(주)인스팟 | 웹퍼블리셔 (2021.12 - 2023.05)</strong>
+                        <ul class="thin">
+                            <li>- 기업을 대상으로 홈페이지 제작 사업 활동을 하는 웹 에이전시입니다.</li>
+                            <li>- 퍼블리서로써 퍼블리싱, 사이트 유지보수, 파견 등 전반적인 사이트 제작 업무를 담당하였습니다.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="container">
+            <h1 class="main-tit neon">Work</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="work-wrap">
+                            <div class="img-wrap">
+                                <img src="./images/work09.jpg" alt="Tmoney 장차법"/>
+                                <span class="bg-img"></span>
+                            </div>
+                            <div class="desc-wrap">
+                                <h3>티머니GO 장차법</h3>
+                                <h4>티머니GO 개편 및 장차법 적용</h4>
+                                <ul>
+                                    <li># VUE3</li>
+                                    <li># 접근성</li>
+                                    <li># 어플리케이션</li>
+                                </ul>
+                                <button class="button view" id="add02">view</button>
+                                <!-- <a href="https://www.shinhancard.com/mob/MOBFM038N/MOBFM038C54.shc?EntryLoc=3477&tmEntryLoc=&empSeq=0&targetID=&datakey=&agcCd=" title="신한카드 펫카드" target="_blank" class="button site">site</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="work-wrap">
+                            <div class="img-wrap">
+                                <img src="./images/work08.jpg" alt="신한카드 The Pet"/>
+                                <span class="bg-img"></span>
+                            </div>
+                            <div class="desc-wrap">
+                                <h3>신한카드 The Pet</h3>
+                                <h4>반려동물 카드 디자인 어플리케이션 제작</h4>
+                                <ul>
+                                    <li># 퍼블리싱 100%</li>
+                                    <li># 포토샵 어플</li>
+                                    <li># 적응형</li>
+                                </ul>
+                                <button class="button view" id="add01">view</button>
+                                <a href="https://www.shinhancard.com/mob/MOBFM038N/MOBFM038C54.shc?EntryLoc=3477&tmEntryLoc=&empSeq=0&targetID=&datakey=&agcCd=" title="신한카드 펫카드" target="_blank" class="button site">site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="work-wrap">
+                            <div class="img-wrap">
+                                <img src="./images/work01.jpg" alt="엡손 마이크로사이트"/>
+                                <span class="bg-img"></span>
+                            </div>
+                            <div class="desc-wrap">
+                                <h3>엡손 마이크로사이트</h3>
+                                <h4>기업 마이크로사이트 제작</h4>
+                                <ul>
+                                    <li># 퍼블리싱 100%</li>
+                                    <li># 마이크로사이트</li>
+                                    <li># 반응형</li>
+                                </ul>
+                                <button class="button view" id="one">view</button>
+                                <a href="https://my.epson.co.kr/details_for_tomorrow/index.ekl" title="엡손 마이크로사이트" target="_blank" class="button site">site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="work-wrap">
+                            <div class="img-wrap"><img src="./images/work02.jpg" alt="SK 피유코어"/></div>
+                            <div class="desc-wrap">
+                                <h3>SK pucore</h3>
+                                <h4>기업 사이트 제작</h4>
+                                <ul>
+                                    <li># 퍼블리싱 50%</li>
+                                    <li># 반응형</li>
+                                </ul>
+                                <button class="button view" id="two">view</button>
+                                <a href="https://www.skpucore.com/" title="엡손 마이크로사이트" target="_blank" class="button site">site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="work-wrap">
+                            <div class="img-wrap"><img src="./images/work03.jpg" alt="KB 애자일"/></div>
+                            <div class="desc-wrap">
+                                <h3>KB Wallet 내 차 등록증</h3>
+                                <h4>어플리케이션 제작</h4>
+                                <ul>
+                                    <li># 퍼블리싱 80%</li>
+                                    <li># 어플리케이션</li>
+                                </ul>
+                                <button class="button view" id="three">view</button>
+                                <!-- <a href="javascript:void(0)" title="엡손 마이크로사이트" class="button site">site</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="work-wrap">
+                            <div class="img-wrap"><img src="./images/work04.jpg" alt="해양연구소"/></div>
+                            <div class="desc-wrap">
+                                <h3>국립해양문화재연구소</h3>
+                                <h4>문화재청 사이트 유지보수</h4>
+                                <ul>
+                                    <li># 유지보수 </li>
+                                    <li># 반응형</li>
+                                </ul>
+                                <button class="button view" id="four">view</button>
+                                <a href="https://www.seamuse.go.kr/" title="엡손 마이크로사이트" target="_blank" class="button site">site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="work-wrap">
+                            <div class="img-wrap"><img src="./images/work05.jpg" alt="금호건설 웹진"/></div>
+                            <div class="desc-wrap">
+                                <h3>웹진 금호건설</h3>
+                                <h4>기업 사이트 웹진 제작</h4>
+                                <ul>
+                                    <li># 퍼블리싱 100%</li>
+                                    <li># 반응형</li>
+                                    <li># 웹진</li>
+                                </ul>
+                                <button class="button view" id="five">view</button>
+                                <a href="https://webzine.kumhoenc.com/webzine/202209/02_story/check.asp" title="엡손 마이크로사이트" target="_blank" class="button site">site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="work-wrap">
+                            <div class="img-wrap"><img src="./images/work06.jpg" alt="성남FC"/></div>
+                            <div class="desc-wrap">
+                                <h3>성남FC</h3>
+                                <h4>기업 사이트 유지보수</h4>
+                                <ul>
+                                    <li># 유지보수</li>
+                                    <li># 반응형</li>
+                                </ul>
+                                <button class="button view" id="six">view</button>
+                                <a href="https://www.seongnamfc.com/" title="엡손 마이크로사이트" target="_blank" class="button site">site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="work-wrap">
+                            <div class="img-wrap"><img src="./images/work07.jpg" alt="동서식품"/></div>
+                            <div class="desc-wrap">
+                                <h3>동서식품</h3>
+                                <h4>기업 사이트 유지보수</h4>
+                                <ul>
+                                    <li># 유지보수</li>
+                                    <li># 적응형</li>
+                                    <li># 동서문학상</li>
+                                </ul>
+                                <button class="button view" id="seven">view</button>
+                                <a href="https://www.dongsuh.co.kr/2017/00_main/main.asp" title="엡손 마이크로사이트" target="_blank" class="button site">site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="bold">본 페이지는 상업적 목적이 아닌<br/>개인 포트폴리오용으로 제작되었습니다.</p>
+        <span>© 2023 SimChoEun. All Rights Reserved.</span>
+    </footer>
+
+    <!-- modal -->
+    <div id="modal-container">
+        <div class="modal-bg">
+            <div class="modal" id="add02">
+                <div class="modal-inner">
+                    <p class="thumbnail"><img src="./images/work09.jpg" alt="티머니GO"></p>
+                    <ul class="hash">
+                        <li># VUE3</li>
+                        <li># 접근성</li>
+                        <li># 어플리케이션</li>
+                    </ul>
+                    <h3>프로젝트 소개</h3>
+                    <ul class="project">
+                        <li>UI/UX 개편 및 앱 접근성 작업을 진행했습니다.</li>
+                        <li>인원 : 총 8명 (퍼블리셔 : 2명, 개발자 : 6명)</li>
+                        <li>개발기간 : 2024.04 - 2024.06</li>
+                    </ul>
+                    <h3>기여한 작업</h3>
+                    <ul class="work">
+                        <li>티머니GO 본사로 파견 가 어플리케이션 화면 퍼블리싱 구축 작업을 진행하였습니다.</li>
+                        <li>Vue와 SCSS를 활용하여 작업을 진행하였습니다.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal" id="add01">
+                <div class="modal-inner">
+                    <p class="thumbnail"><img src="./images/work08_pc.jpg" alt="신한카드 The pet"></p>
+                    <div class="thumbnail-mob"><img src="./images/work08_mob.jpg" alt="신한카드 The pet"></div>
+                    <ul class="hash">
+                        <li># 퍼블리싱 100%</li>
+                        <li># 포토샵 어플</li>
+                        <li># 적응형</li>
+                    </ul>
+                    <h3>프로젝트 소개</h3>
+                    <ul class="project">
+                        <li>반려동물 카드를 직접 꾸밀 수 있는 포토샵 기능을 가진 사이트 구축 작업을 진행했습니다.</li>
+                        <li>인원 : 총 여러명 (기획자 : 1명, 디자이너 : 1명, 퍼블리셔 : 2명, 개발자 : 다수)</li>
+                        <li>개발기간 : 2024.02 - 2024.08</li>
+                    </ul>
+                    <h3>기여한 작업</h3>
+                    <ul class="work">
+                        <li>모바일 화면에선 각 메뉴 클릭 시 애니메이션 효과를 주어 인터렉티브한 사이트 작업을 진행하였습니다.</li>
+                        <li>인트로, 모달, 최종저장 화면 등 여러가지 화면들 모두 함께 작업하였습니다.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal" id="one">
+                <div class="modal-inner">
+                    <p class="thumbnail"><img src="./images/work01.jpg" alt="엡손 마이크로사이트"></p>
+                    <ul class="hash">
+                        <li># 퍼블리싱 100%</li>
+                        <li># 마이크로사이트</li>
+                        <li># 반응형</li>
+                    </ul>
+                    <h3>프로젝트 소개</h3>
+                    <ul class="project">
+                        <li>상업용 프린터 및 스캐너 홍보를 위한 마이크로사이트 구축 작업을 진행하였습니다.</li>
+                        <li>인원 : 총 2명 (디자이너 : 1명, 퍼블리셔 : 1명)</li>
+                        <li>개발기간 : 2023.05 - 2023.05</li>
+                    </ul>
+                    <h3>기여한 작업</h3>
+                    <ul class="work">
+                        <li>스크롤 시 애니메이션되도록 동적인 효과를 주는 인테렉티브한 사이트 작업을 진행하였습니다.</li>
+                        <li>인터넷익스플로러(IE)에서도 작동가능하도록 작업을 진행하였습니다.</li>
+                        <li>고객사측의 요청으로 인하여 디자인 작업을 제외한 개발기간 총 2일을 소모하였습니다.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal" id="two">
+                <div class="modal-inner">
+                    <p class="thumbnail"><img src="./images/work02.jpg" alt="SK 피유코어"></p>
+                    <ul class="hash">
+                        <li># 퍼블리싱 50%</li>
+                        <li># 반응형</li>
+                    </ul>
+                    <h3>프로젝트 소개</h3>
+                    <ul class="project">
+                        <li>석탄화학계 화합물 및 기타 기초 유기 화학물질 제조업 홈페이지 구축 작업을 진행하였습니다.</li>
+                        <li>인원 : 총 5명 (기획자 : 2명, 디자이너 : 1명, 퍼블리셔 : 2명)</li>
+                        <li>개발기간 : 2022.08 - 2022.09</li>
+                    </ul>
+                    <h3>기여한 작업</h3>
+                    <ul class="work">
+                        <li>스크롤 시 애니메이션되도록 동적인 효과를 주는 인테렉티브한 사이트 작업을 진행하였습니다.</li>
+                        <li>인터넷익스플로러(IE)에서도 작동가능하도록 작업을 진행하였습니다.</li>
+                        <li>헤더, 푸터 및 서브페이지들의 구축을 담당하였습니다.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal" id="three">
+                <div class="modal-inner">
+                    <p class="thumbnail"><img src="./images/work03.jpg" alt="KB Wallet 내 차 등록증"></p>
+                    <ul class="hash">
+                        <li># 퍼블리싱 80%</li>
+                        <li># 어플리케이션</li>
+                        <li># 파견</li>
+                    </ul>
+                    <h3>프로젝트 소개</h3>
+                    <ul class="project">
+                        <li>KB Wallet안의 내 차 등록증 프로젝트 구축 작업을 진행하였습니다.</li>
+                        <li>인원 : 총 10명 (기획자 : 1명, 디자이너 : 1명, 퍼블리셔 : 1명, 프론트엔드개발자 : 3명, 백엔드개발자 : 4명)</li>
+                        <li>개발기간 : 2022.12 - 2023.04 (투입기간 : 2023.01 - 2023.03)</li>
+                    </ul>
+                    <h3>기여한 작업</h3>
+                    <ul class="work">
+                        <li>KB본사로 파견가 어플리케이션 화면 퍼블리싱 구축 작업을 진행하였습니다.</li>
+                        <li>Vue와 SCSS를 활용하여 작업을 진행하였습니다.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal" id="four">
+                <div class="modal-inner">
+                    <p class="thumbnail"><img src="./images/work04.jpg" alt="국립해양문화재연구소"></p>
+                    <ul class="hash">
+                        <li># 유지보수</li>
+                        <li># 반응형</li>
+                    </ul>
+                    <h3>프로젝트 소개</h3>
+                    <ul class="project">
+                        <li>여러 해양문화재를 발굴하고 연구하는 문화재청 소속 홈페이지 유지보수를 진행하였습니다.</li>
+                        <li>작업기간 : 2022.01 - 2023.05</li>
+                    </ul>
+                    <h3>기여한 작업</h3>
+                    <ul class="work">
+                        <li>해양연구소, 목포연구소, 태안연구소 총 3곳의 홈페이지 유지보수룰 하였습니다.</li>
+                        <li>주로 팝업 및 개인정보 처리방침 업데이트 작업을 하였습니다</li>
+                        <li>메인 수정 및 서브페이지 추가 작업도 진행하였습니다.</li>
+                        <li>원격 데스크톱을 연결하여 운영 반영을 하였습니다.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal" id="five">
+                <div class="modal-inner">
+                    <p class="thumbnail"><img src="./images/work05.jpg" alt="금호웹진"></p>
+                    <ul class="hash">
+                        <li># 퍼블리싱 100%</li>
+                        <li># 반응형</li>
+                    </ul>
+                    <h3>프로젝트 소개</h3>
+                    <ul class="project">
+                        <li>금호건설 직원들과 관련된 소식을 인터넷 잡지로 구축하였습니다.</li>
+                        <li>인원 : 총 7명 (기획자 : 1명, 디자이너 : 4명, 퍼블리셔 : 1명, 백엔드개발자 : 1명)</li>
+                        <li>작업기간 : 2021.12 - 2023.04</li>
+                    </ul>
+                    <h3>기여한 작업</h3>
+                    <ul class="work">
+                        <li>2달 기사를 내보내고 1달은 쉬는 형식의 루틴으로 작업하였습니다.</li>
+                        <li>1달은 8개의 기사, 남은 1달은 4개의 기사를 작업하였습니다.</li>
+                        <li>각종 게임 이벤트도 진행하는 코드도 작업하였습니다.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal" id="six">
+                <div class="modal-inner">
+                    <p class="thumbnail"><img src="./images/work06.jpg" alt="성남FC"></p>
+                    <ul class="hash">
+                        <li># 유지보수</li>
+                        <li># 반응형</li>
+                    </ul>
+                    <h3>프로젝트 소개</h3>
+                    <ul class="project">
+                        <li>K리그2 소속 홈페이지 유지보수를 진행하였습니다.</li>
+                        <li>작업기간 : 2022.06 - 2023.05</li>
+                    </ul>
+                    <h3>기여한 작업</h3>
+                    <ul class="work">
+                        <li>매년 초 선수단 업데이트 작업을 하였습니다.</li>
+                        <li>멤버쉽 페이지를 새로 구축하였습니다.</li>
+                        <li>메인화면 리뉴얼도 진행하였습니다.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal" id="seven">
+                <div class="modal-inner">
+                    <p class="thumbnail"><img src="./images/work07.jpg" alt="동서식품"></p>
+                    <ul class="hash">
+                        <li># 유지보수</li>
+                        <li># 적응형</li>
+                        <li># 동서문학상</li>
+                    </ul>
+                    <h3>프로젝트 소개</h3>
+                    <ul class="project">
+                        <li>대한민국의 식품 제조업체 홈페이지 유지보수를 진행하였습니다.</li>
+                        <li>작업기간 : 2021.12 - 2023.05</li>
+                    </ul>
+                    <h3>기여한 작업</h3>
+                    <ul class="work">
+                        <li>주로 팝업 및 제품 업데이를 진행하였습니다.</li>
+                        <li>2년에 1번씩 동서문학상이라는 대회의 홈페이지를 작업하였습니다.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
