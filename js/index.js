@@ -13,7 +13,7 @@ $(function(){
 
                 console.log(swipeIdx)
 
-                if (swipeIdx == 2 || swipeIdx == 6 || swipeIdx == 7 || swipeIdx == 9) {
+                if (swipeIdx == 3  || swipeIdx == 4 || swipeIdx == 6 || swipeIdx == 8 || swipeIdx == 11 || swipeIdx == 13) {
                     $('.work .main-tit').css('text-shadow','0px 0px 20px rgba(0, 0, 0, 0.8)');
                 } else {
                     $('.work .main-tit').css('text-shadow','0px 0px 20px rgba(255, 255, 255, 0.8)');
